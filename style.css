@@ -1,0 +1,90 @@
+body{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+section{
+    width: 18rem;
+    height: 20rem;
+    padding: 7px;
+    display: flex;
+    flex-direction: column;
+    gap: 1%;
+    background-color: black;
+
+    border: 2px solid black;
+    border-radius: 8px;
+}
+
+.screen {
+    width: 99%;
+    height: 3rem;
+    padding: 0.5%;
+    padding-right: 0%;
+    font-family: 'Saira', sans-serif;
+    background-color: white;
+    border: 1px solid black;
+    font-size: larger;
+    border-radius: 8px;
+}
+
+table{
+    background-color: grey;
+    width: 100%;
+    height: 17rem;
+    margin-top: 10%;
+    border-radius: 8px;
+}
+
+button{
+    width: 100%;
+    height: 3rem;
+    font-family: 'Saira', sans-serif;
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    font-size: medium;
+}
+
+.zeros-btn{
+    padding: 0%;
+    width: 100%;
+}
+.b-btn{
+    background-image: url("./assets/backspace.png");
+    background-size: cover;
+}
+
+
+@media screen and (max-width: 500px) {
+   body{
+    padding: 0%;
+    margin: 0%;
+   }
+   
+    section{
+        width:100%;
+        height: 30rem;
+    }
+
+    .screen{
+        height: 5rem;
+        font-size: larger;
+    }
+
+    table{
+        height: 40rem;
+    }
+    
+    button{
+        height: 5rem;
+        font-size: larger;
+    }
+
+    .b-btn{
+        background-size: 100%;
+        background-repeat: no-repeat;
+    }
+}
